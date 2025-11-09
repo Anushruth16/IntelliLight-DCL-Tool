@@ -69,6 +69,10 @@ python IntelliLight_DCL.py
 
 This mode is used when you want to **record and label sensor data**.
 
+Below is the UI preview of IntelliLight DCL Tool in Data Collection mode
+![UI Preview](ref_images/DCLtool_Sitting_datacollection.png)
+
+
 ### **Steps:**
 
 #### 1️. **Start Sensor**
@@ -129,9 +133,28 @@ Sensor data will start streaming live.
 | Presence detected | Green circle | Light turns **ON** |
 | No presence (for few seconds) | Red circle | Light turns **OFF** |
 
+---
+
+Reference output screenshots:
+
 You will see:
 - **A circular indicator** showing presence/absence
 - **Light ON/OFF status below it**
+
+
+### Prediction output indicating absence; the light state is OFF.
+![absence ](ref_images/Absence.png)
+
+--- 
+
+### Prediction output indicating presence; the light state is ON.
+![UI Preview](ref_images/Presence.png)
+
+---
+
+### Absence predicted, but light remains ON since the absence counter has not exceeded the defined threshold.
+![UI Preview](ref_images/hysteresis_logic_light_ON.png)
+
 
 ---
 
