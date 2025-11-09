@@ -33,7 +33,7 @@ It also includes a **Sensor-Only Prediction Mode** that can automatically detect
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/IntelliLight-DCL-Tool.git
+https://github.com/Anushruth16/IntelliLight-DCL-Tool.git
 cd IntelliLight-DCL-Tool
 ````
 
